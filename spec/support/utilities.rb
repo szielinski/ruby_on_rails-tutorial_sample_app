@@ -20,7 +20,7 @@ def enter_valid_password
 end
 
 def enter_valid_password_confirmation
-	fill_in "Confirmation", with: "foobar"
+	fill_in "Confirm Password", with: "foobar"
 end
 
 def new_valid_user
